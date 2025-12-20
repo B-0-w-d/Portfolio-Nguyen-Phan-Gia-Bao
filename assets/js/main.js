@@ -34,7 +34,7 @@ const scrollHeader = () =>{
 }
 /*=============== HOME TYPED JS ===============*/
 const typedHome = new Typed('#home-typed', {
-    strings: ['Web Developer', 'Web Designer', 'Freelancer'],
+    strings: ['Front-end Developer', 'Web Designer', 'Wordpress Freelancer'],
     typeSpeed: 80,
     backSpeed: 40,
     backDelay: 2000,
