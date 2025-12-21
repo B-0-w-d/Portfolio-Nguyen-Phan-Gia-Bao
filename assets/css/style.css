@@ -310,6 +310,10 @@ img {
     margin-top: 2rem;
 }
 
+.home__description {
+    line-height: 1.5;
+    text-align: justify;
+}
 
 
 /*=============== BUTTON ===============*/
@@ -356,6 +360,7 @@ img {
 .about__description {
     margin-bottom: 1.5rem;
     line-height: 1.6;
+    text-align: justify;
 } 
 
 .about__subtitle {
