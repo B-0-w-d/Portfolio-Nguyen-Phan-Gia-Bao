@@ -715,16 +715,16 @@ img {
     }
 
     .home__image, .about__image {
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 400px;
     }
 
     .home__img, .about__img {
-        width: 400px;
+        width: 300px;
     }
-    .home__image img {
-        object-fit: cover;
-    }
+    /* .home__image img {
+        object-fit: contain;
+    } */
 
     .projects__data {
         padding-inline: .5rem;
