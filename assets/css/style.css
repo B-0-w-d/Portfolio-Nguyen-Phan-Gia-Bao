@@ -720,7 +720,10 @@ img {
     }
 
     .home__img, .about__img {
-        width: 170px;
+        width: 400px;
+    }
+    .home__image img {
+        object-fit: cover;
     }
 
     .projects__data {
