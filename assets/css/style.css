@@ -260,11 +260,18 @@ img {
     border: 5px solid var(--first-color);
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
 }
+.home__image img {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+    object-position: top bottom;
+}
 
 .home__img {
     width: 200px;
     filter: drop-shadow(0 4px 16px hsla(0,0%, 0%, .2));
 }
+
 
 .home__social {
     position: absolute;
@@ -412,6 +419,11 @@ img {
     justify-content: center;
     justify-self: center;
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
+}
+.about__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .about__img {
