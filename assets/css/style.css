@@ -261,10 +261,10 @@ img {
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
 }
 .home__image img {
-    width: 68%;
+    width: 75%;
     height: 100%;
     object-fit: cover;
-    object-position: top center;
+    object-position: top bottom;
 }
 
 .home__img {
@@ -421,10 +421,10 @@ img {
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
 }
 .about__image img {
-    width: 68%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
-    object-position: top center ;
+    object-position: top bottom ;
 }
 
 .about__img {
