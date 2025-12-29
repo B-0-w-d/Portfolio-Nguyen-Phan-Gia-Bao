@@ -249,8 +249,8 @@ img {
 }
 
 .home__image {
-    width: 100px;
-    height: 100px;
+    width: 240px;
+    height: 240px;
     background-color: var(--white-color);
     border-radius: 50%;
     overflow: hidden;
@@ -261,10 +261,10 @@ img {
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
 }
 .home__image img {
-    width: 95%;
+    width: 63%;
     height: 100%;
     object-fit: cover;
-    object-position: top center ;
+    object-position: top center;
 }
 
 .home__img {
@@ -421,7 +421,7 @@ img {
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
 }
 .about__image img {
-    width: 95%;
+    width: 63%;
     height: 100%;
     object-fit: cover;
     object-position: top center ;
@@ -443,6 +443,11 @@ img {
     overflow: hidden;
     box-shadow: 0 8px 16px hsla(0, 0%, 0%, .5);
     transition: box-shadow .4s;
+}
+.projects__card img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
 }
 
 .projects__data {
