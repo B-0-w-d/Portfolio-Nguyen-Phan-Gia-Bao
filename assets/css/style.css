@@ -249,8 +249,8 @@ img {
 }
 
 .home__image {
-    width: 240px;
-    height: 240px;
+    width: 100px;
+    height: 100px;
     background-color: var(--white-color);
     border-radius: 50%;
     overflow: hidden;
@@ -261,10 +261,10 @@ img {
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
 }
 .home__image img {
-    width: 100%;
+    width: 95%;
     height: 100%;
-   object-fit: cover;
-    object-position: top bottom;
+    object-fit: cover;
+    object-position: top center ;
 }
 
 .home__img {
@@ -421,9 +421,10 @@ img {
     box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, .3);
 }
 .about__image img {
-    width: 100%;
+    width: 95%;
     height: 100%;
     object-fit: cover;
+    object-position: top center ;
 }
 
 .about__img {
