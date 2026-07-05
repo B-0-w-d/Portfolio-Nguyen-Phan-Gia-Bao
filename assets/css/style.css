@@ -540,6 +540,11 @@ img {
 .resume__info address {
     font-style: initial;
 }
+
+.resume__description {
+    line-height: 1.4;
+    text-align: justify;
+}
 /*=============== CONTACT ===============*/
 .contact__container {
     row-gap: 4rem;
@@ -871,6 +876,7 @@ img {
 
     .resume {
         padding-block: 8rem 4rem;
+        justify-content: justify;
     }
     .resume__container {
         grid-template-columns: repeat(2, 465px);
@@ -882,6 +888,7 @@ img {
     .resume__list {
         row-gap: 3rem;
     }
+    .resume__desri
 
     .contact {
         padding-block: 8rem 4rem;
